@@ -10,7 +10,7 @@ pipeline{
 
   stage('Run') {
     steps {
-      echo 'waiting 1 minutes for deployment to complete'  
+      echo 'waiting 1m for deployment to complete'  
       sleep(60)
     }
   }
